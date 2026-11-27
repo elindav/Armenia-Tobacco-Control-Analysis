@@ -151,7 +151,7 @@ Armenia-Tobacco-Control-Analysis/
 
 ## Installation and Requirements
 
-- **R**: version 4.1 or later (as stated by the original project notes). The exact R version used to generate the published results was not recorded.
+- **R**: version 4.1 or later 
 - **R packages**: `ggplot2` (3.4.0 or later) and `scales`. The scripts also use base R packages (`stats`, `utils`) only.
 
 ```r
