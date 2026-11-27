@@ -1,0 +1,122 @@
+country,iso3,year,year_label,sex,age_group,population_group,indicator,measure,value_pct,source,source_type,note
+Armenia,ARM,2022,2021-22,female,15,adolescents,cigarette_smoking,current,0.0,HBSC survey,national_survey,
+Armenia,ARM,2022,2021-22,male,15,adolescents,cigarette_smoking,current,17.0,HBSC survey,national_survey,
+Armenia,ARM,2022,2022,both,15+,adults,cigarette_smoking,daily,24.6,HSPA survey,national_survey,manufactured cigarettes only
+Armenia,ARM,2022,2021-22,female,15,adolescents,e_cigarette,current,1.0,HBSC survey,national_survey,
+Armenia,ARM,2022,2021-22,male,15,adolescents,e_cigarette,current,23.0,HBSC survey,national_survey,
+Armenia,ARM,2016,2016,both,18-69,adults,smokeless_tobacco,current,0.3,STEPS survey,national_survey,
+Armenia,ARM,2016,2016,female,18-69,adults,smokeless_tobacco,current,0.0,STEPS survey,national_survey,
+Armenia,ARM,2016,2016,male,18-69,adults,smokeless_tobacco,current,0.5,STEPS survey,national_survey,
+Armenia,ARM,2016,2016,both,18-69,adults,smokeless_tobacco,daily,0.1,STEPS survey,national_survey,
+Armenia,ARM,2016,2016,female,18-69,adults,smokeless_tobacco,daily,0.0,STEPS survey,national_survey,
+Armenia,ARM,2016,2016,male,18-69,adults,smokeless_tobacco,daily,0.3,STEPS survey,national_survey,
+Armenia,ARM,2022,2022,both,15+,adults,tobacco_smoking,daily,25.5,HSPA survey,national_survey,
+Armenia,ARM,2022,2022,female,15+,adults,tobacco_smoking,daily,2.0,HSPA survey,national_survey,
+Armenia,ARM,2022,2022,male,15+,adults,tobacco_smoking,daily,53.2,HSPA survey,national_survey,
+Armenia,ARM,2007,2007,both,15+,adults,any_tobacco_use,current_or_unspecified,27.0,SDG indicator 3.a.1,sdg,SDG 3.a.1 tobacco use; ages 15+ assumed; definition unspecified
+Armenia,ARM,2009,2009,both,15+,adults,any_tobacco_use,current_or_unspecified,26.8,SDG indicator 3.a.1,sdg,SDG 3.a.1 tobacco use; ages 15+ assumed; definition unspecified
+Armenia,ARM,2015,2015,both,15+,adults,any_tobacco_use,current_or_unspecified,31.3,SDG indicator 3.a.1,sdg,SDG 3.a.1 tobacco use; ages 15+ assumed; definition unspecified
+Armenia,ARM,2016,2016,both,15+,adults,any_tobacco_use,current_or_unspecified,26.2,SDG indicator 3.a.1,sdg,SDG 3.a.1 tobacco use; ages 15+ assumed; definition unspecified
+Armenia,ARM,2022,2022,both,15+,adults,any_tobacco_use,current_or_unspecified,25.2,SDG indicator 3.a.1,sdg,SDG 3.a.1 tobacco use; ages 15+ assumed; definition unspecified
+Armenia,ARM,2007,2007,female,15+,adults,any_tobacco_use,current_or_unspecified,1.6,SDG indicator 3.a.1,sdg,SDG 3.a.1 tobacco use; ages 15+ assumed; definition unspecified
+Armenia,ARM,2009,2009,female,15+,adults,any_tobacco_use,current_or_unspecified,1.5,SDG indicator 3.a.1,sdg,SDG 3.a.1 tobacco use; ages 15+ assumed; definition unspecified
+Armenia,ARM,2015,2015,female,15+,adults,any_tobacco_use,current_or_unspecified,1.2,SDG indicator 3.a.1,sdg,SDG 3.a.1 tobacco use; ages 15+ assumed; definition unspecified
+Armenia,ARM,2016,2016,female,15+,adults,any_tobacco_use,current_or_unspecified,2.3,SDG indicator 3.a.1,sdg,SDG 3.a.1 tobacco use; ages 15+ assumed; definition unspecified
+Armenia,ARM,2022,2022,female,15+,adults,any_tobacco_use,current_or_unspecified,2.0,SDG indicator 3.a.1,sdg,SDG 3.a.1 tobacco use; ages 15+ assumed; definition unspecified
+Armenia,ARM,2007,2007,male,15+,adults,any_tobacco_use,current_or_unspecified,54.7,SDG indicator 3.a.1,sdg,SDG 3.a.1 tobacco use; ages 15+ assumed; definition unspecified
+Armenia,ARM,2009,2009,male,15+,adults,any_tobacco_use,current_or_unspecified,52.0,SDG indicator 3.a.1,sdg,SDG 3.a.1 tobacco use; ages 15+ assumed; definition unspecified
+Armenia,ARM,2015,2015,male,15+,adults,any_tobacco_use,current_or_unspecified,61.4,SDG indicator 3.a.1,sdg,SDG 3.a.1 tobacco use; ages 15+ assumed; definition unspecified
+Armenia,ARM,2016,2016,male,15+,adults,any_tobacco_use,current_or_unspecified,53.4,SDG indicator 3.a.1,sdg,SDG 3.a.1 tobacco use; ages 15+ assumed; definition unspecified
+Armenia,ARM,2022,2022,male,15+,adults,any_tobacco_use,current_or_unspecified,53.2,SDG indicator 3.a.1,sdg,SDG 3.a.1 tobacco use; ages 15+ assumed; definition unspecified
+Armenia,ARM,2023,2023,both,15+,adults,any_tobacco_use,current,26.4,WHO age-standardized modelled estimate,who_model,"modelled, age-standardized"
+Armenia,ARM,2023,2023,female,15+,adults,any_tobacco_use,current,1.8,WHO age-standardized modelled estimate,who_model,"modelled, age-standardized"
+Armenia,ARM,2023,2023,male,15+,adults,any_tobacco_use,current,51.0,WHO age-standardized modelled estimate,who_model,"modelled, age-standardized"
+Armenia,ARM,2023,2023,both,15+,adults,any_tobacco_use,daily,23.8,WHO age-standardized modelled estimate,who_model,"modelled, age-standardized"
+Armenia,ARM,2023,2023,female,15+,adults,any_tobacco_use,daily,1.4,WHO age-standardized modelled estimate,who_model,"modelled, age-standardized"
+Armenia,ARM,2023,2023,male,15+,adults,any_tobacco_use,daily,46.2,WHO age-standardized modelled estimate,who_model,"modelled, age-standardized"
+Armenia,ARM,2023,2023,both,15+,adults,cigarette_smoking,current,24.6,WHO age-standardized modelled estimate,who_model,"modelled, age-standardized"
+Armenia,ARM,2023,2023,female,15+,adults,cigarette_smoking,current,1.4,WHO age-standardized modelled estimate,who_model,"modelled, age-standardized"
+Armenia,ARM,2023,2023,male,15+,adults,cigarette_smoking,current,47.9,WHO age-standardized modelled estimate,who_model,"modelled, age-standardized"
+Armenia,ARM,2023,2023,both,15+,adults,cigarette_smoking,daily,21.4,WHO age-standardized modelled estimate,who_model,"modelled, age-standardized"
+Armenia,ARM,2023,2023,female,15+,adults,cigarette_smoking,daily,1.0,WHO age-standardized modelled estimate,who_model,"modelled, age-standardized"
+Armenia,ARM,2023,2023,male,15+,adults,cigarette_smoking,daily,41.7,WHO age-standardized modelled estimate,who_model,"modelled, age-standardized"
+Armenia,ARM,2023,2023,both,15+,adults,tobacco_smoking,current,26.4,WHO age-standardized modelled estimate,who_model,"modelled, age-standardized"
+Armenia,ARM,2023,2023,female,15+,adults,tobacco_smoking,current,1.7,WHO age-standardized modelled estimate,who_model,"modelled, age-standardized"
+Armenia,ARM,2023,2023,male,15+,adults,tobacco_smoking,current,51.0,WHO age-standardized modelled estimate,who_model,"modelled, age-standardized"
+Armenia,ARM,2023,2023,both,15+,adults,tobacco_smoking,daily,23.6,WHO age-standardized modelled estimate,who_model,"modelled, age-standardized"
+Armenia,ARM,2023,2023,female,15+,adults,tobacco_smoking,daily,1.3,WHO age-standardized modelled estimate,who_model,"modelled, age-standardized"
+Armenia,ARM,2023,2023,male,15+,adults,tobacco_smoking,daily,45.9,WHO age-standardized modelled estimate,who_model,"modelled, age-standardized"
+Australia,AUS,2017,2017,both,12-17,adolescents,cigarette_smoking,current,5.0,ASSAD,national_survey,
+Australia,AUS,2017,2017,female,12-17,adolescents,cigarette_smoking,current,4.0,ASSAD,national_survey,
+Australia,AUS,2017,2017,male,12-17,adolescents,cigarette_smoking,current,5.0,ASSAD,national_survey,
+Australia,AUS,2017,2017,both,12-17,adolescents,cigarette_smoking,daily,1.0,ASSAD,national_survey,
+Australia,AUS,2017,2017,female,12-17,adolescents,cigarette_smoking,daily,1.0,ASSAD,national_survey,
+Australia,AUS,2017,2017,male,12-17,adolescents,cigarette_smoking,daily,1.0,ASSAD,national_survey,
+Australia,AUS,2022,2021-22,both,15+,adults,cigarette_smoking,daily,9.7,National Health Survey,national_survey,
+Australia,AUS,2022,2021-22,female,15+,adults,cigarette_smoking,daily,8.0,National Health Survey,national_survey,
+Australia,AUS,2022,2021-22,male,15+,adults,cigarette_smoking,daily,11.6,National Health Survey,national_survey,
+Australia,AUS,2017,2017,both,12-17,adolescents,e_cigarette,current,4.5,ASSAD,national_survey,
+Australia,AUS,2017,2017,female,12-17,adolescents,e_cigarette,current,3.1,ASSAD,national_survey,
+Australia,AUS,2017,2017,male,12-17,adolescents,e_cigarette,current,5.6,ASSAD,national_survey,
+Australia,AUS,2019,2019,both,14+,adults,e_cigarette,current,2.5,National Drug Strategy Household Survey,national_survey,
+Australia,AUS,2019,2019,both,14+,adults,e_cigarette,daily,1.1,National Drug Strategy Household Survey,national_survey,
+Australia,AUS,2021,2021,both,15+,adults,cigarette_smoking,current,10.9,WHO age-standardized modelled estimate,who_model,"modelled, age-standardized"
+Australia,AUS,2021,2021,female,15+,adults,cigarette_smoking,current,9.2,WHO age-standardized modelled estimate,who_model,"modelled, age-standardized"
+Australia,AUS,2021,2021,male,15+,adults,cigarette_smoking,current,12.5,WHO age-standardized modelled estimate,who_model,"modelled, age-standardized"
+Australia,AUS,2021,2021,both,15+,adults,cigarette_smoking,daily,10.1,WHO age-standardized modelled estimate,who_model,"modelled, age-standardized"
+Australia,AUS,2021,2021,female,15+,adults,cigarette_smoking,daily,8.6,WHO age-standardized modelled estimate,who_model,"modelled, age-standardized"
+Australia,AUS,2021,2021,male,15+,adults,cigarette_smoking,daily,11.7,WHO age-standardized modelled estimate,who_model,"modelled, age-standardized"
+Australia,AUS,2021,2021,both,15+,adults,tobacco_smoking,current,13.4,WHO age-standardized modelled estimate,who_model,"modelled, age-standardized"
+Australia,AUS,2021,2021,female,15+,adults,tobacco_smoking,current,11.2,WHO age-standardized modelled estimate,who_model,"modelled, age-standardized"
+Australia,AUS,2021,2021,male,15+,adults,tobacco_smoking,current,15.6,WHO age-standardized modelled estimate,who_model,"modelled, age-standardized"
+Australia,AUS,2021,2021,both,15+,adults,tobacco_smoking,daily,11.5,WHO age-standardized modelled estimate,who_model,"modelled, age-standardized"
+Australia,AUS,2021,2021,female,15+,adults,tobacco_smoking,daily,9.9,WHO age-standardized modelled estimate,who_model,"modelled, age-standardized"
+Australia,AUS,2021,2021,male,15+,adults,tobacco_smoking,daily,13.2,WHO age-standardized modelled estimate,who_model,"modelled, age-standardized"
+Sweden,SWE,2022,2022,both,15-16,adolescents,any_tobacco_use,current,16.0,CAN national school survey,national_survey,
+Sweden,SWE,2022,2022,female,15-16,adolescents,any_tobacco_use,current,15.0,CAN national school survey,national_survey,
+Sweden,SWE,2022,2022,male,15-16,adolescents,any_tobacco_use,current,16.0,CAN national school survey,national_survey,
+Sweden,SWE,2022,2022,both,15-16,adolescents,any_tobacco_use,daily,8.0,CAN national school survey,national_survey,
+Sweden,SWE,2022,2022,female,15-16,adolescents,any_tobacco_use,daily,5.0,CAN national school survey,national_survey,
+Sweden,SWE,2022,2022,male,15-16,adolescents,any_tobacco_use,daily,10.0,CAN national school survey,national_survey,
+Sweden,SWE,2023,2023,both,16+,adults,any_tobacco_use,daily,23.0,Swedish Living Conditions Survey,national_survey,
+Sweden,SWE,2023,2023,female,16+,adults,any_tobacco_use,daily,15.0,Swedish Living Conditions Survey,national_survey,
+Sweden,SWE,2023,2023,male,16+,adults,any_tobacco_use,daily,30.0,Swedish Living Conditions Survey,national_survey,
+Sweden,SWE,2022,2022,both,15-16,adolescents,cigarette_smoking,current,9.0,CAN national school survey,national_survey,
+Sweden,SWE,2022,2022,female,15-16,adolescents,cigarette_smoking,current,10.0,CAN national school survey,national_survey,
+Sweden,SWE,2022,2022,male,15-16,adolescents,cigarette_smoking,current,8.0,CAN national school survey,national_survey,
+Sweden,SWE,2022,2022,both,15-16,adolescents,cigarette_smoking,daily,1.0,CAN national school survey,national_survey,
+Sweden,SWE,2022,2022,female,15-16,adolescents,cigarette_smoking,daily,1.0,CAN national school survey,national_survey,
+Sweden,SWE,2022,2022,male,15-16,adolescents,cigarette_smoking,daily,1.0,CAN national school survey,national_survey,
+Sweden,SWE,2022,2022,both,15-16,adolescents,e_cigarette,current,20.0,CAN national school survey,national_survey,
+Sweden,SWE,2022,2022,female,15-16,adolescents,e_cigarette,current,23.0,CAN national school survey,national_survey,
+Sweden,SWE,2022,2022,male,15-16,adolescents,e_cigarette,current,18.0,CAN national school survey,national_survey,
+Sweden,SWE,2022,2022,both,15-16,adolescents,smokeless_tobacco,current,11.0,CAN national school survey,national_survey,
+Sweden,SWE,2022,2022,female,15-16,adolescents,smokeless_tobacco,current,8.0,CAN national school survey,national_survey,
+Sweden,SWE,2022,2022,male,15-16,adolescents,smokeless_tobacco,current,14.0,CAN national school survey,national_survey,
+Sweden,SWE,2022,2022,both,15-16,adolescents,smokeless_tobacco,daily,5.0,CAN national school survey,national_survey,
+Sweden,SWE,2022,2022,female,15-16,adolescents,smokeless_tobacco,daily,2.0,CAN national school survey,national_survey,
+Sweden,SWE,2022,2022,male,15-16,adolescents,smokeless_tobacco,daily,7.0,CAN national school survey,national_survey,
+Sweden,SWE,2023,2023,both,16+,adults,smokeless_tobacco,daily,15.0,Swedish Living Conditions Survey,national_survey,
+Sweden,SWE,2023,2023,female,16+,adults,smokeless_tobacco,daily,8.0,Swedish Living Conditions Survey,national_survey,
+Sweden,SWE,2023,2023,male,16+,adults,smokeless_tobacco,daily,22.0,Swedish Living Conditions Survey,national_survey,
+Sweden,SWE,2023,2023,both,16+,adults,tobacco_smoking,daily,9.0,Swedish Living Conditions Survey,national_survey,
+Sweden,SWE,2023,2023,female,16+,adults,tobacco_smoking,daily,8.0,Swedish Living Conditions Survey,national_survey,
+Sweden,SWE,2023,2023,male,16+,adults,tobacco_smoking,daily,9.0,Swedish Living Conditions Survey,national_survey,
+Sweden,SWE,2023,2023,both,15+,adults,any_tobacco_use,current,21.0,WHO age-standardized modelled estimate,who_model,"modelled, age-standardized"
+Sweden,SWE,2023,2023,female,15+,adults,any_tobacco_use,current,15.3,WHO age-standardized modelled estimate,who_model,"modelled, age-standardized"
+Sweden,SWE,2023,2023,male,15+,adults,any_tobacco_use,current,26.8,WHO age-standardized modelled estimate,who_model,"modelled, age-standardized"
+Sweden,SWE,2023,2023,both,15+,adults,any_tobacco_use,daily,15.0,WHO age-standardized modelled estimate,who_model,"modelled, age-standardized"
+Sweden,SWE,2023,2023,female,15+,adults,any_tobacco_use,daily,7.1,WHO age-standardized modelled estimate,who_model,"modelled, age-standardized"
+Sweden,SWE,2023,2023,male,15+,adults,any_tobacco_use,daily,22.9,WHO age-standardized modelled estimate,who_model,"modelled, age-standardized"
+Sweden,SWE,2023,2023,both,15+,adults,cigarette_smoking,current,6.1,WHO age-standardized modelled estimate,who_model,"modelled, age-standardized"
+Sweden,SWE,2023,2023,female,15+,adults,cigarette_smoking,current,6.4,WHO age-standardized modelled estimate,who_model,"modelled, age-standardized"
+Sweden,SWE,2023,2023,male,15+,adults,cigarette_smoking,current,5.9,WHO age-standardized modelled estimate,who_model,"modelled, age-standardized"
+Sweden,SWE,2023,2023,both,15+,adults,cigarette_smoking,daily,3.9,WHO age-standardized modelled estimate,who_model,"modelled, age-standardized"
+Sweden,SWE,2023,2023,female,15+,adults,cigarette_smoking,daily,4.1,WHO age-standardized modelled estimate,who_model,"modelled, age-standardized"
+Sweden,SWE,2023,2023,male,15+,adults,cigarette_smoking,daily,3.8,WHO age-standardized modelled estimate,who_model,"modelled, age-standardized"
+Sweden,SWE,2023,2023,both,15+,adults,tobacco_smoking,current,10.8,WHO age-standardized modelled estimate,who_model,"modelled, age-standardized"
+Sweden,SWE,2023,2023,female,15+,adults,tobacco_smoking,current,9.0,WHO age-standardized modelled estimate,who_model,"modelled, age-standardized"
+Sweden,SWE,2023,2023,male,15+,adults,tobacco_smoking,current,12.6,WHO age-standardized modelled estimate,who_model,"modelled, age-standardized"
+Sweden,SWE,2023,2023,both,15+,adults,tobacco_smoking,daily,5.0,WHO age-standardized modelled estimate,who_model,"modelled, age-standardized"
+Sweden,SWE,2023,2023,female,15+,adults,tobacco_smoking,daily,5.2,WHO age-standardized modelled estimate,who_model,"modelled, age-standardized"
+Sweden,SWE,2023,2023,male,15+,adults,tobacco_smoking,daily,4.8,WHO age-standardized modelled estimate,who_model,"modelled, age-standardized"

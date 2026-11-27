@@ -1,0 +1,277 @@
+file,column,type,description,coding,n_missing
+cancer_by_sex.csv,country,text,Country name,,0
+cancer_by_sex.csv,iso3,text,ISO 3166 alpha-3 code,,0
+cancer_by_sex.csv,year,integer,Reference year of the data (policy/price year; survey year-end for surveys),,0
+cancer_by_sex.csv,sex,text,male / female / both,,0
+cancer_by_sex.csv,population,integer,Population (persons),,0
+cancer_by_sex.csv,new_cases,integer,New cancer cases (n),,0
+cancer_by_sex.csv,incidence_asr_world_per100k,numeric,Incidence ASR (world std) per 100k,,0
+cancer_by_sex.csv,incidence_cum_risk_0_74_pct,numeric,"Cumulative incidence risk 0-74 y, %",,0
+cancer_by_sex.csv,deaths,integer,Cancer deaths (n),,0
+cancer_by_sex.csv,mortality_asr_world_per100k,numeric,Mortality ASR (world std) per 100k,,0
+cancer_by_sex.csv,mortality_cum_risk_0_74_pct,numeric,"Cumulative mortality risk 0-74 y, %",,0
+cancer_by_sex.csv,prevalent_cases_5yr,integer,5-year prevalent cases (n),,0
+cancer_by_site.csv,country,text,Country name,,0
+cancer_by_site.csv,iso3,text,ISO 3166 alpha-3 code,,0
+cancer_by_site.csv,year,integer,Reference year of the data (policy/price year; survey year-end for surveys),,0
+cancer_by_site.csv,row_type,text,site / all_cancers / all_cancers_excl_nmsc,,0
+cancer_by_site.csv,tobacco_related,numeric,1 = site causally linked to tobacco (IARC; leukaemia counted although only myeloid is linked); 0 = not; NA = aggregate row. Analyst coding - review.,"1=yes, 0=no",2
+cancer_by_site.csv,cancer_site,text,Cancer site (GLOBOCAN 2024 grouping),,0
+cancer_by_site.csv,new_cases,integer,New cancer cases (n),,0
+cancer_by_site.csv,new_cases_rank,numeric,Rank by new cases,,2
+cancer_by_site.csv,new_cases_pct,numeric,% of all cancers,,2
+cancer_by_site.csv,new_cases_cum_risk_pct,numeric,"Cumulative risk of cancer 0-74 y, %",,0
+cancer_by_site.csv,deaths,integer,Cancer deaths (n),,0
+cancer_by_site.csv,deaths_rank,numeric,Rank by deaths,,2
+cancer_by_site.csv,deaths_pct,numeric,% of all cancer deaths,,2
+cancer_by_site.csv,deaths_cum_risk_pct,numeric,"Cumulative risk of death 0-74 y, %",,0
+cancer_by_site.csv,prevalence_5yr_n,integer,5-year prevalent cases (n),,0
+cancer_by_site.csv,prevalence_5yr_per_100k,numeric,"5-year prevalence per 100,000",,2
+cancer_by_site.csv,asr_world_incidence_both,numeric,"Incidence ASR (world std), per 100k, both sexes",,19
+cancer_by_site.csv,asr_world_mortality_both,numeric,"Mortality ASR (world std), per 100k, both sexes",,19
+cancer_by_site.csv,asr_world_incidence_male,numeric,"Incidence ASR, males",,23
+cancer_by_site.csv,asr_world_incidence_female,numeric,"Incidence ASR, females",,21
+cancer_top_sites_by_sex.csv,country,text,Country name,,0
+cancer_top_sites_by_sex.csv,iso3,text,ISO 3166 alpha-3 code,,0
+cancer_top_sites_by_sex.csv,year,integer,Reference year of the data (policy/price year; survey year-end for surveys),,0
+cancer_top_sites_by_sex.csv,sex,text,male / female / both,,0
+cancer_top_sites_by_sex.csv,cancer_site,text,Cancer site (GLOBOCAN 2024 grouping),,0
+cancer_top_sites_by_sex.csv,incidence_rank,numeric,Incidence rank within sex (NA = 'Others'),,3
+cancer_top_sites_by_sex.csv,new_cases,integer,New cancer cases (n),,0
+cancer_top_sites_by_sex.csv,pct_of_all_cancers,numeric,% of all cancers within sex,,0
+cancer_top_sites_by_sex.csv,mortality_rank_top3,numeric,"Mortality rank if among top 3 for that sex, else NA",,9
+country_context.csv,country,text,Country name,,0
+country_context.csv,iso3,text,ISO 3166 alpha-3 code,,0
+country_context.csv,year,integer,Reference year of the data (policy/price year; survey year-end for surveys),,0
+country_context.csv,report_year,integer,Year of the WHO report the profile came from,,0
+country_context.csv,income_group,text,World Bank income group,,0
+country_context.csv,population_total,integer,"Total population (WHO profile, UN WPP)",,0
+country_context.csv,fctc_signature_date,text,WHO FCTC signature date (ISO; NA = not signed),,1
+country_context.csv,fctc_ratification_date,text,WHO FCTC ratification / accession date (ISO),,0
+country_context.csv,specific_national_objectives,integer,1 = government has specific tobacco-control objectives,"1=yes, 0=no",0
+country_context.csv,national_agency,integer,1 = national tobacco-control agency/unit exists,"1=yes, 0=no",0
+country_context.csv,fte_staff,integer,Full-time-equivalent tobacco-control staff,,0
+country_context.csv,govt_spend_currency,text,Currency of government tobacco-control spending,,1
+country_context.csv,govt_spend_amount,numeric,"Government tobacco-control spending, local currency",,1
+country_context.csv,govt_spend_year,numeric,Year the spending refers to,,1
+country_context.csv,population_male,numeric,Male population (GLOBOCAN 2024; Armenia only),,2
+country_context.csv,population_female,numeric,Female population (GLOBOCAN 2024; Armenia only),,2
+tobacco_package_warnings.csv,country,text,Country name,,0
+tobacco_package_warnings.csv,iso3,text,ISO 3166 alpha-3 code,,0
+tobacco_package_warnings.csv,year,integer,Reference year of the data (policy/price year; survey year-end for surveys),,0
+tobacco_package_warnings.csv,product,text,Tobacco/nicotine product,,0
+tobacco_package_warnings.csv,law_mandates_warnings,numeric,law mandates warnings,"1=yes, 0=no",1
+tobacco_package_warnings.csv,sale_banned,numeric,sale banned,"1=yes, 0=no",1
+tobacco_package_warnings.csv,pct_front_rear_combined,numeric,pct front rear combined,,2
+tobacco_package_warnings.csv,pct_front,numeric,pct front,,2
+tobacco_package_warnings.csv,pct_rear,numeric,pct rear,,2
+tobacco_package_warnings.csv,warning_at_top,numeric,warning at top,"1=yes, 0=no",2
+tobacco_package_warnings.csv,font_mandated,numeric,font mandated,"1=yes, 0=no",2
+tobacco_package_warnings.csv,rotating,numeric,rotating,"1=yes, 0=no",2
+tobacco_package_warnings.csv,rotating_multiple_concurrent,numeric,rotating multiple concurrent,"1=yes, 0=no",5
+tobacco_package_warnings.csv,rotating_change_time_specified,numeric,rotating change time specified,"1=yes, 0=no",5
+tobacco_package_warnings.csv,principal_language,numeric,principal language,"1=yes, 0=no",2
+tobacco_package_warnings.csv,not_obscured,numeric,not obscured,"1=yes, 0=no",2
+tobacco_package_warnings.csv,photo_or_graphic,numeric,photo or graphic,"1=yes, 0=no",2
+tobacco_package_warnings.csv,on_each_package_and_outer,numeric,on each package and outer,"1=yes, 0=no",2
+tobacco_package_warnings.csv,applies_domestic_imported_dutyfree,numeric,applies domestic imported dutyfree,"1=yes, 0=no",2
+tobacco_package_warnings.csv,describes_harmful_effects,numeric,describes harmful effects,"1=yes, 0=no",2
+tobacco_package_warnings.csv,specific_warnings_mandated,numeric,specific warnings mandated,"1=yes, 0=no",2
+tobacco_package_warnings.csv,n_specific_warnings,numeric,n specific warnings,,2
+tobacco_package_warnings.csv,fines_for_violations,numeric,fines for violations,"1=yes, 0=no",2
+tobacco_package_warnings.csv,liability_not_diminished_stated,numeric,liability not diminished stated,"1=yes, 0=no",2
+tobacco_package_warnings.csv,no_misleading_terms,numeric,no misleading terms,"1=yes, 0=no",1
+tobacco_package_warnings.csv,no_figurative_signs,numeric,no figurative signs,"1=yes, 0=no",1
+tobacco_package_warnings.csv,no_flavour_descriptors,numeric,no flavour descriptors,"1=yes, 0=no",1
+tobacco_package_warnings.csv,ban_quantitative_emission_info,numeric,ban quantitative emission info,"1=yes, 0=no",1
+tobacco_package_warnings.csv,mandates_qualitative_constituent_info,numeric,mandates qualitative constituent info,"1=yes, 0=no",1
+tobacco_package_warnings.csv,qualitative_info_on_principal_area,numeric,qualitative info on principal area,"1=yes, 0=no",3
+tobacco_package_warnings.csv,bans_expiry_dates,numeric,bans expiry dates,"1=yes, 0=no",1
+tobacco_package_warnings.csv,quitline_number_mandatory,numeric,quitline number mandatory,"1=yes, 0=no",1
+tobacco_package_warnings.csv,plain_packaging,numeric,plain packaging,"1=yes, 0=no",1
+tobacco_package_warnings.csv,note,text,Free-text caveat,,4
+tobacco_policy.csv,country,text,Country name,,0
+tobacco_policy.csv,iso3,text,ISO 3166 alpha-3 code,,0
+tobacco_policy.csv,year,integer,Reference year of the data (policy/price year; survey year-end for surveys),,0
+tobacco_policy.csv,mp_monitoring_level,integer,MPOWER summary: monitoring level (ordinal: 0 none/low ... higher = stronger/more access; see coding),"0=none/weak,1=minimal,2=moderate,3=complete (from WHO colour/legend)",0
+tobacco_policy.csv,mp_smoke_free_level,integer,MPOWER summary: smoke free level (ordinal: 0 none/low ... higher = stronger/more access; see coding),"0=none/weak,1=minimal,2=moderate,3=complete (from WHO colour/legend)",0
+tobacco_policy.csv,mp_smoke_free_compliance_score,numeric,MPOWER summary: smoke free compliance score (compliance score 0-10),,2
+tobacco_policy.csv,mp_cessation_level,integer,MPOWER summary: cessation level (ordinal: 0 none/low ... higher = stronger/more access; see coding),"0=none/weak,1=minimal,2=moderate,3=complete (from WHO colour/legend)",0
+tobacco_policy.csv,mp_health_warnings_level,integer,MPOWER summary: health warnings level (ordinal: 0 none/low ... higher = stronger/more access; see coding),"0=none/weak,1=minimal,2=moderate,3=complete (from WHO colour/legend)",0
+tobacco_policy.csv,mp_mass_media_level,integer,MPOWER summary: mass media level (ordinal: 0 none/low ... higher = stronger/more access; see coding),"1=yes, 0=no",0
+tobacco_policy.csv,mp_ad_bans_level,numeric,MPOWER summary: ad bans level (ordinal: 0 none/low ... higher = stronger/more access; see coding),"0=none/weak,1=minimal,2=moderate,3=complete (from WHO colour/legend)",1
+tobacco_policy.csv,mp_ad_bans_compliance_score,numeric,MPOWER summary: ad bans compliance score (compliance score 0-10),,1
+tobacco_policy.csv,mp_taxation_level,integer,MPOWER summary: taxation level (ordinal: 0 none/low ... higher = stronger/more access; see coding),"0=none/weak,1=minimal,2=moderate,3=complete (from WHO colour/legend)",0
+tobacco_policy.csv,mp_tax_share_pct_retail_price,numeric,MPOWER summary: tax share pct retail price,,0
+tobacco_policy.csv,mp_less_affordable_10yr,integer,MPOWER summary: less affordable 10yr,"1=yes, 0=no",0
+tobacco_policy.csv,sf_complete_ban_healthcare,integer,Smoke-free environments: complete ban healthcare,"1=yes, 0=no",0
+tobacco_policy.csv,sf_complete_ban_education_non_univ,integer,Smoke-free environments: complete ban education non univ,"1=yes, 0=no",0
+tobacco_policy.csv,sf_complete_ban_universities,integer,Smoke-free environments: complete ban universities,"1=yes, 0=no",0
+tobacco_policy.csv,sf_complete_ban_government,integer,Smoke-free environments: complete ban government,"1=yes, 0=no",0
+tobacco_policy.csv,sf_complete_ban_workplaces,integer,Smoke-free environments: complete ban workplaces,"1=yes, 0=no",0
+tobacco_policy.csv,sf_complete_ban_restaurants,integer,Smoke-free environments: complete ban restaurants,"1=yes, 0=no",0
+tobacco_policy.csv,sf_complete_ban_cafes_pubs_bars,integer,Smoke-free environments: complete ban cafes pubs bars,"1=yes, 0=no",0
+tobacco_policy.csv,sf_complete_ban_public_transport,integer,Smoke-free environments: complete ban public transport,"1=yes, 0=no",0
+tobacco_policy.csv,sf_complete_ban_other_public_places,numeric,Smoke-free environments: complete ban other public places,"1=yes, 0=no",2
+tobacco_policy.csv,sf_n_places_complete_ban,integer,Smoke-free environments: n places complete ban,,0
+tobacco_policy.csv,sf_fines_required,integer,Smoke-free environments: fines required,"1=yes, 0=no",0
+tobacco_policy.csv,sf_fines_on_establishment,numeric,Smoke-free environments: fines on establishment,"1=yes, 0=no",1
+tobacco_policy.csv,sf_fines_on_smoker,numeric,Smoke-free environments: fines on smoker,"1=yes, 0=no",1
+tobacco_policy.csv,sf_enforcement_funds,integer,Smoke-free environments: enforcement funds,"1=yes, 0=no",0
+tobacco_policy.csv,sf_complaint_system,integer,Smoke-free environments: complaint system,"1=yes, 0=no",0
+tobacco_policy.csv,sf_compliance_score,numeric,Smoke-free environments: compliance score (compliance score 0-10),,2
+tobacco_policy.csv,sf_score_healthcare,numeric,Smoke-free environments: score healthcare (compliance score 0-10),,2
+tobacco_policy.csv,sf_score_education_non_univ,numeric,Smoke-free environments: score education non univ (compliance score 0-10),,2
+tobacco_policy.csv,sf_score_universities,numeric,Smoke-free environments: score universities (compliance score 0-10),,2
+tobacco_policy.csv,sf_score_government,numeric,Smoke-free environments: score government (compliance score 0-10),,2
+tobacco_policy.csv,sf_score_workplaces,numeric,Smoke-free environments: score workplaces (compliance score 0-10),,2
+tobacco_policy.csv,sf_score_restaurants,numeric,Smoke-free environments: score restaurants (compliance score 0-10),,2
+tobacco_policy.csv,sf_score_cafes_pubs_bars,numeric,Smoke-free environments: score cafes pubs bars (compliance score 0-10),,2
+tobacco_policy.csv,sf_subnational_authority_indoor_ban,numeric,Smoke-free environments: subnational authority indoor ban,"1=yes, 0=no",1
+tobacco_policy.csv,ce_quitline_toll_free,integer,Cessation / treatment of dependence: quitline toll free,"1=yes, 0=no",0
+tobacco_policy.csv,ce_nrt_legal,integer,Cessation / treatment of dependence: nrt legal,"1=yes, 0=no",0
+tobacco_policy.csv,ce_nrt_essential_list,integer,Cessation / treatment of dependence: nrt essential list,"1=yes, 0=no",0
+tobacco_policy.csv,ce_bupropion_legal,integer,Cessation / treatment of dependence: bupropion legal,"1=yes, 0=no",0
+tobacco_policy.csv,ce_bupropion_essential_list,numeric,Cessation / treatment of dependence: bupropion essential list,"1=yes, 0=no",1
+tobacco_policy.csv,ce_varenicline_legal,integer,Cessation / treatment of dependence: varenicline legal,"1=yes, 0=no",0
+tobacco_policy.csv,ce_varenicline_essential_list,numeric,Cessation / treatment of dependence: varenicline essential list,"1=yes, 0=no",1
+tobacco_policy.csv,ce_cytisine_legal,numeric,Cessation / treatment of dependence: cytisine legal,"1=yes, 0=no",1
+tobacco_policy.csv,ce_cytisine_essential_list,numeric,Cessation / treatment of dependence: cytisine essential list,"1=yes, 0=no",2
+tobacco_policy.csv,ce_support_level_primary_care,integer,Cessation / treatment of dependence: support level primary care (ordinal: 0 none/low ... higher = stronger/more access; see coding),"0=not available,1=in some facilities,2=in most",0
+tobacco_policy.csv,ce_support_level_hospitals,integer,Cessation / treatment of dependence: support level hospitals (ordinal: 0 none/low ... higher = stronger/more access; see coding),"0=not available,1=in some facilities,2=in most",0
+tobacco_policy.csv,ce_support_level_health_professional,integer,Cessation / treatment of dependence: support level health professional (ordinal: 0 none/low ... higher = stronger/more access; see coding),"0=not available,1=in some facilities,2=in most",0
+tobacco_policy.csv,ce_support_level_community,numeric,Cessation / treatment of dependence: support level community (ordinal: 0 none/low ... higher = stronger/more access; see coding),"1=yes, 0=no",1
+tobacco_policy.csv,ce_support_level_other,integer,Cessation / treatment of dependence: support level other (ordinal: 0 none/low ... higher = stronger/more access; see coding),"1=yes, 0=no",0
+tobacco_policy.csv,ce_support_cost_level_primary_care,integer,Cessation / treatment of dependence: support cost level primary care (ordinal: 0 none/low ... higher = stronger/more access; see coding),"0=no,1=partially,2=fully covered",0
+tobacco_policy.csv,ce_support_cost_level_hospitals,numeric,Cessation / treatment of dependence: support cost level hospitals (ordinal: 0 none/low ... higher = stronger/more access; see coding),"1=yes, 0=no",1
+tobacco_policy.csv,ce_support_cost_level_health_professional,numeric,Cessation / treatment of dependence: support cost level health professional (ordinal: 0 none/low ... higher = stronger/more access; see coding),"1=yes, 0=no",1
+tobacco_policy.csv,ce_support_cost_level_community,numeric,Cessation / treatment of dependence: support cost level community (ordinal: 0 none/low ... higher = stronger/more access; see coding),"0=no,1=partially,2=fully covered",3
+tobacco_policy.csv,ce_support_cost_level_other,numeric,Cessation / treatment of dependence: support cost level other (ordinal: 0 none/low ... higher = stronger/more access; see coding),"1=yes, 0=no",1
+tobacco_policy.csv,ce_nrt_rx_required,integer,Cessation / treatment of dependence: nrt rx required,"1=yes, 0=no",0
+tobacco_policy.csv,ce_bupropion_rx_required,integer,Cessation / treatment of dependence: bupropion rx required,"1=yes, 0=no",0
+tobacco_policy.csv,ce_varenicline_rx_required,integer,Cessation / treatment of dependence: varenicline rx required,"1=yes, 0=no",0
+tobacco_policy.csv,ce_cytisine_rx_required,numeric,Cessation / treatment of dependence: cytisine rx required,"1=yes, 0=no",1
+tobacco_policy.csv,ce_nrt_cost_cover_level,integer,Cessation / treatment of dependence: nrt cost cover level (ordinal: 0 none/low ... higher = stronger/more access; see coding),"1=yes, 0=no",0
+tobacco_policy.csv,ce_bupropion_cost_cover_level,integer,Cessation / treatment of dependence: bupropion cost cover level (ordinal: 0 none/low ... higher = stronger/more access; see coding),"1=yes, 0=no",0
+tobacco_policy.csv,ce_varenicline_cost_cover_level,integer,Cessation / treatment of dependence: varenicline cost cover level (ordinal: 0 none/low ... higher = stronger/more access; see coding),"1=yes, 0=no",0
+tobacco_policy.csv,ce_cytisine_cost_cover_level,numeric,Cessation / treatment of dependence: cytisine cost cover level (ordinal: 0 none/low ... higher = stronger/more access; see coding),"1=yes, 0=no",1
+tobacco_policy.csv,mm_national_campaign_aired,integer,Anti-tobacco mass media campaign: national campaign aired,"1=yes, 0=no",0
+tobacco_policy.csv,mm_aired_tv_radio,numeric,Anti-tobacco mass media campaign: aired tv radio,"1=yes, 0=no",2
+tobacco_policy.csv,mm_audience_research,numeric,Anti-tobacco mass media campaign: audience research,"1=yes, 0=no",2
+tobacco_policy.csv,mm_materials_pretested,numeric,Anti-tobacco mass media campaign: materials pretested,"1=yes, 0=no",2
+tobacco_policy.csv,mm_airtime_purchased,numeric,Anti-tobacco mass media campaign: airtime purchased,"1=yes, 0=no",2
+tobacco_policy.csv,mm_monitored,numeric,Anti-tobacco mass media campaign: monitored,"1=yes, 0=no",2
+tobacco_policy.csv,mm_worked_with_journalists,numeric,Anti-tobacco mass media campaign: worked with journalists,"1=yes, 0=no",2
+tobacco_policy.csv,mm_evaluated,numeric,Anti-tobacco mass media campaign: evaluated,"1=yes, 0=no",2
+tobacco_policy.csv,mm_part_of_comprehensive_programme,numeric,Anti-tobacco mass media campaign: part of comprehensive programme,"1=yes, 0=no",2
+tobacco_policy.csv,ad_ban_national_tv_radio,integer,"Advertising, promotion & sponsorship bans: ban national tv radio","1=yes, 0=no",0
+tobacco_policy.csv,ad_ban_international_tv_radio,integer,"Advertising, promotion & sponsorship bans: ban international tv radio","1=yes, 0=no",0
+tobacco_policy.csv,ad_ban_local_print,integer,"Advertising, promotion & sponsorship bans: ban local print","1=yes, 0=no",0
+tobacco_policy.csv,ad_ban_international_print,integer,"Advertising, promotion & sponsorship bans: ban international print","1=yes, 0=no",0
+tobacco_policy.csv,ad_ban_billboards,integer,"Advertising, promotion & sponsorship bans: ban billboards","1=yes, 0=no",0
+tobacco_policy.csv,ad_ban_point_of_sale_ads,integer,"Advertising, promotion & sponsorship bans: ban point of sale ads","1=yes, 0=no",0
+tobacco_policy.csv,ad_ban_internet,integer,"Advertising, promotion & sponsorship bans: ban internet","1=yes, 0=no",0
+tobacco_policy.csv,ad_ban_other_direct,integer,"Advertising, promotion & sponsorship bans: ban other direct","1=yes, 0=no",0
+tobacco_policy.csv,ad_score_national_tv_radio,numeric,"Advertising, promotion & sponsorship bans: score national tv radio (compliance score 0-10)",,1
+tobacco_policy.csv,ad_score_local_print,numeric,"Advertising, promotion & sponsorship bans: score local print (compliance score 0-10)",,1
+tobacco_policy.csv,ad_score_billboards,numeric,"Advertising, promotion & sponsorship bans: score billboards (compliance score 0-10)",,1
+tobacco_policy.csv,ad_score_point_of_sale,numeric,"Advertising, promotion & sponsorship bans: score point of sale (compliance score 0-10)",,2
+tobacco_policy.csv,ad_score_direct_overall,numeric,"Advertising, promotion & sponsorship bans: score direct overall (compliance score 0-10)",,1
+tobacco_policy.csv,ad_fines_direct_ads,integer,"Advertising, promotion & sponsorship bans: fines direct ads","1=yes, 0=no",0
+tobacco_policy.csv,ad_ban_free_distribution,integer,"Advertising, promotion & sponsorship bans: ban free distribution","1=yes, 0=no",0
+tobacco_policy.csv,ad_ban_promo_discounts,integer,"Advertising, promotion & sponsorship bans: ban promo discounts","1=yes, 0=no",0
+tobacco_policy.csv,ad_ban_nontobacco_products_with_brand_names,integer,"Advertising, promotion & sponsorship bans: ban nontobacco products with brand names","1=yes, 0=no",0
+tobacco_policy.csv,ad_ban_brand_name_of_nontobacco_for_tobacco,integer,"Advertising, promotion & sponsorship bans: ban brand name of nontobacco for tobacco","1=yes, 0=no",0
+tobacco_policy.csv,ad_ban_product_placement_brands,integer,"Advertising, promotion & sponsorship bans: ban product placement brands","1=yes, 0=no",0
+tobacco_policy.csv,ad_ban_tobacco_in_tv_film,integer,"Advertising, promotion & sponsorship bans: ban tobacco in tv film","1=yes, 0=no",0
+tobacco_policy.csv,ad_require_antitobacco_ads_with_tobacco_media,integer,"Advertising, promotion & sponsorship bans: require antitobacco ads with tobacco media","1=yes, 0=no",0
+tobacco_policy.csv,ad_ban_sponsorship_complete,integer,"Advertising, promotion & sponsorship bans: ban sponsorship complete","1=yes, 0=no",0
+tobacco_policy.csv,ad_ban_csr,integer,"Advertising, promotion & sponsorship bans: ban csr","1=yes, 0=no",0
+tobacco_policy.csv,ad_ban_csr_publicizing_by_industry,integer,"Advertising, promotion & sponsorship bans: ban csr publicizing by industry","1=yes, 0=no",0
+tobacco_policy.csv,ad_ban_csr_publicizing_by_others,integer,"Advertising, promotion & sponsorship bans: ban csr publicizing by others","1=yes, 0=no",0
+tobacco_policy.csv,ad_ban_industry_funding_prevention_campaigns,integer,"Advertising, promotion & sponsorship bans: ban industry funding prevention campaigns","1=yes, 0=no",0
+tobacco_policy.csv,ad_ban_pos_display,integer,"Advertising, promotion & sponsorship bans: ban pos display","1=yes, 0=no",0
+tobacco_policy.csv,ad_ban_other_indirect,integer,"Advertising, promotion & sponsorship bans: ban other indirect","1=yes, 0=no",0
+tobacco_policy.csv,ad_score_free_distribution,numeric,"Advertising, promotion & sponsorship bans: score free distribution (compliance score 0-10)",,2
+tobacco_policy.csv,ad_score_promo_discounts,numeric,"Advertising, promotion & sponsorship bans: score promo discounts (compliance score 0-10)",,2
+tobacco_policy.csv,ad_score_nontobacco_brand_names,numeric,"Advertising, promotion & sponsorship bans: score nontobacco brand names (compliance score 0-10)",,1
+tobacco_policy.csv,ad_score_brand_name_use,numeric,"Advertising, promotion & sponsorship bans: score brand name use (compliance score 0-10)",,2
+tobacco_policy.csv,ad_score_product_placement,numeric,"Advertising, promotion & sponsorship bans: score product placement (compliance score 0-10)",,1
+tobacco_policy.csv,ad_score_tobacco_in_tv_film,numeric,"Advertising, promotion & sponsorship bans: score tobacco in tv film (compliance score 0-10)",,3
+tobacco_policy.csv,ad_score_sponsorship,numeric,"Advertising, promotion & sponsorship bans: score sponsorship (compliance score 0-10)",,2
+tobacco_policy.csv,ad_score_indirect_overall,numeric,"Advertising, promotion & sponsorship bans: score indirect overall (compliance score 0-10)",,1
+tobacco_policy.csv,ad_fines_indirect_ads,integer,"Advertising, promotion & sponsorship bans: fines indirect ads","1=yes, 0=no",0
+tobacco_policy.csv,sr_ban_vending_machines,integer,Sales restrictions: ban vending machines,"1=yes, 0=no",0
+tobacco_policy.csv,sr_ban_internet_sales,integer,Sales restrictions: ban internet sales,"1=yes, 0=no",0
+tobacco_policy.csv,sr_ban_imitation_products,integer,Sales restrictions: ban imitation products,"1=yes, 0=no",0
+tobacco_policy.csv,sr_min_purchase_age,integer,Sales restrictions: min purchase age,,0
+tobacco_policy.csv,sr_ban_single_sticks,integer,Sales restrictions: ban single sticks,"1=yes, 0=no",0
+tobacco_policy.csv,sr_min_cigarettes_per_pack,integer,Sales restrictions: min cigarettes per pack,0 = no minimum,0
+tobacco_policy.csv,ends_sale_ban,integer,E-cigarette (ENDS) regulation: sale ban,"1=yes, 0=no",0
+tobacco_policy.csv,ends_indoor_use_ban_level,integer,E-cigarette (ENDS) regulation: indoor use ban level (ordinal: 0 none/low ... higher = stronger/more access; see coding),"1=yes, 0=no",0
+tobacco_policy.csv,ends_device_warning,integer,E-cigarette (ENDS) regulation: device warning,"1=yes, 0=no",0
+tobacco_policy.csv,ends_eliquid_warning,integer,E-cigarette (ENDS) regulation: eliquid warning,"1=yes, 0=no",0
+tobacco_policy.csv,ends_device_ad_ban_level,integer,E-cigarette (ENDS) regulation: device ad ban level (ordinal: 0 none/low ... higher = stronger/more access; see coding),"0=none,1=partial,2=complete",0
+tobacco_policy.csv,ends_eliquid_ad_ban_level,integer,E-cigarette (ENDS) regulation: eliquid ad ban level (ordinal: 0 none/low ... higher = stronger/more access; see coding),"0=none,1=partial,2=complete",0
+tobacco_policy.csv,ends_min_age_sale,integer,E-cigarette (ENDS) regulation: min age sale,,0
+tobacco_policy.csv,ends_flavour_ban,integer,E-cigarette (ENDS) regulation: flavour ban,"1=yes, 0=no",0
+tobacco_policy.csv,tx_excise_type,text,Tax structure & administration: excise type,,0
+tobacco_policy.csv,tx_uniform_excise,integer,Tax structure & administration: uniform excise,"1=yes, 0=no",0
+tobacco_policy.csv,tx_greater_reliance_on_specific,numeric,Tax structure & administration: greater reliance on specific,"1=yes, 0=no",2
+tobacco_policy.csv,tx_minimum_specific_tax,numeric,Tax structure & administration: minimum specific tax,"1=yes, 0=no",2
+tobacco_policy.csv,tx_minimum_price_policy,numeric,Tax structure & administration: minimum price policy,"1=yes, 0=no",1
+tobacco_policy.csv,tx_specific_tax_inflation_adjusted,integer,Tax structure & administration: specific tax inflation adjusted,"1=yes, 0=no",0
+tobacco_policy.csv,tx_price_dispersion_pct,numeric,Tax structure & administration: price dispersion pct,,0
+tobacco_policy.csv,tx_price_gap_decreased_vs_2yrs_earlier,numeric,Tax structure & administration: price gap decreased vs 2yrs earlier,"1=yes, 0=no",1
+tobacco_policy.csv,tx_duty_free_sales_banned,numeric,Tax structure & administration: duty free sales banned,"1=yes, 0=no",2
+tobacco_policy.csv,tx_tax_stamps_on_cigarettes,numeric,Tax structure & administration: tax stamps on cigarettes,"1=yes, 0=no",1
+tobacco_policy.csv,tx_tracking_tracing_identifiers,numeric,Tax structure & administration: tracking tracing identifiers,"1=yes, 0=no",1
+tobacco_policy.csv,tx_earmarked_for_health,integer,Tax structure & administration: earmarked for health,"1=yes, 0=no",0
+tobacco_policy.csv,tx_less_affordable_vs_2yrs_earlier,numeric,Tax structure & administration: less affordable vs 2yrs earlier,"1=yes, 0=no",1
+tobacco_policy.csv,tx_excise_ends_type,text,Tax structure & administration: excise ends type,,1
+tobacco_policy.csv,tx_excise_ends_scope,text,Tax structure & administration: excise ends scope,,1
+tobacco_policy.csv,tx_excise_ends_device,numeric,Tax structure & administration: excise ends device,"1=yes, 0=no",2
+tobacco_policy.csv,tx_excise_htp_type,text,Tax structure & administration: excise htp type,,1
+tobacco_policy.csv,tx_excise_htp_device,numeric,Tax structure & administration: excise htp device,"1=yes, 0=no",2
+tobacco_prevalence.csv,country,text,Country name,,0
+tobacco_prevalence.csv,iso3,text,ISO 3166 alpha-3 code,,0
+tobacco_prevalence.csv,year,integer,Reference year of the data (policy/price year; survey year-end for surveys),,0
+tobacco_prevalence.csv,year_label,text,Original year text (e.g. 2021-22),,0
+tobacco_prevalence.csv,sex,text,male / female / both,,0
+tobacco_prevalence.csv,age_group,text,Age range surveyed,,0
+tobacco_prevalence.csv,population_group,text,adults / adolescents,,0
+tobacco_prevalence.csv,indicator,text,"any_tobacco_use, tobacco_smoking, cigarette_smoking, smokeless_tobacco, e_cigarette",,0
+tobacco_prevalence.csv,measure,text,current / daily / current_or_unspecified,,0
+tobacco_prevalence.csv,value_pct,numeric,"Prevalence, % of population group",,0
+tobacco_prevalence.csv,source,text,Survey / data source name,,0
+tobacco_prevalence.csv,source_type,text,"national_survey / who_model (WHO modelled, age-standardized) / sdg (SDG 3.a.1)",,0
+tobacco_prevalence.csv,note,text,Free-text caveat,,57
+tobacco_prices_taxes.csv,country,text,Country name,,0
+tobacco_prices_taxes.csv,iso3,text,ISO 3166 alpha-3 code,,0
+tobacco_prices_taxes.csv,year,integer,Reference year of the data (policy/price year; survey year-end for surveys),,0
+tobacco_prices_taxes.csv,product,text,Tobacco/nicotine product,,0
+tobacco_prices_taxes.csv,pack_unit,text,Pack unit the price refers to,,0
+tobacco_prices_taxes.csv,currency,text,Currency of price_local,,0
+tobacco_prices_taxes.csv,price_local,numeric,"Tax-inclusive retail price, local currency",,0
+tobacco_prices_taxes.csv,price_intl_dollar,numeric,Price in PPP international $,,6
+tobacco_prices_taxes.csv,price_usd,numeric,Price in US$ at official exchange rate,,6
+tobacco_prices_taxes.csv,tax_total_pct,numeric,"Total taxes, % of retail price",,6
+tobacco_prices_taxes.csv,tax_specific_excise_pct,numeric,"Specific excise, % of retail price",,6
+tobacco_prices_taxes.csv,tax_ad_valorem_pct,numeric,"Ad valorem excise, % of retail price","1=yes, 0=no",6
+tobacco_prices_taxes.csv,tax_vat_pct,numeric,"VAT/sales tax, % of retail price",,6
+tobacco_prices_taxes.csv,tax_import_duty_pct,numeric,"Import duty, % of retail price","1=yes, 0=no",6
+tobacco_prices_taxes.csv,tax_other_pct,numeric,"Other taxes, % of retail price","1=yes, 0=no",6
+tobacco_prices_taxes.csv,pct_gdp_pc_for_100_packs,numeric,% of GDP per capita needed to buy 100 packs of most-sold cigarettes (higher = less affordable),,13
+tobacco_prices_taxes.csv,contains_nicotine,numeric,1 = e-liquid contains nicotine (ENDS),"1=yes, 0=no",12
+tobacco_tax_revenue.csv,country,text,Country name,,0
+tobacco_tax_revenue.csv,iso3,text,ISO 3166 alpha-3 code,,0
+tobacco_tax_revenue.csv,year,integer,Reference year of the data (policy/price year; survey year-end for surveys),,0
+tobacco_tax_revenue.csv,fiscal_year_label,text,Fiscal-year text of the revenue data,,0
+tobacco_tax_revenue.csv,coverage,text,Products covered,,0
+tobacco_tax_revenue.csv,currency,text,Currency of price_local,,0
+tobacco_tax_revenue.csv,excise_total,integer,"Excise revenue, local currency",,0
+tobacco_tax_revenue.csv,vat_sales_tax,numeric,VAT & sales-tax revenue,,1
+tobacco_tax_revenue.csv,import_duties,numeric,Import duty revenue,,1
+tobacco_tax_revenue.csv,other_taxes,numeric,Other tobacco taxes,"1=yes, 0=no",1
+tobacco_tax_revenue.csv,total,numeric,Total tobacco tax revenue,,1
+tobacco_tax_revenue.csv,excise_share_pct,numeric,Excise as % of total revenue (derived),,1

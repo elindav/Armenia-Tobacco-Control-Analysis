@@ -1,0 +1,5 @@
+"country","year","legal_score","compliance_score","enforcement_infra","implementation_gap","note"
+"Australia",2022,0.777777777777778,NA,0.75,NA,"Computed from WHO-reported inputs (tobacco_policy.csv, gtr2025_supplement.csv); compliance score missing = not reported by WHO"
+"Armenia",2024,0.666666666666667,0.8,0.5,-0.133333333333333,"Computed from WHO-reported inputs (tobacco_policy.csv, gtr2025_supplement.csv); compliance score missing = not reported by WHO"
+"Georgia",2024,0.555555555555555,0.8,0.5,-0.244444444444445,"Computed from WHO-reported inputs (tobacco_policy.csv, gtr2025_supplement.csv); compliance score missing = not reported by WHO"
+"Ireland",2024,1,NA,0.75,NA,"Computed from WHO-reported inputs (tobacco_policy.csv, gtr2025_supplement.csv); compliance score missing = not reported by WHO"

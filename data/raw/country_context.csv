@@ -1,0 +1,4 @@
+country,iso3,year,report_year,income_group,population_total,fctc_signature_date,fctc_ratification_date,specific_national_objectives,national_agency,fte_staff,govt_spend_currency,govt_spend_amount,govt_spend_year,population_male,population_female
+Australia,AUS,2022,2023,High income,26177414,2003-12-05,2004-10-27,1,1,14,NA,NA,NA,NA,NA
+Sweden,SWE,2024,2025,High income,10607000,2003-06-16,2005-07-07,1,1,30,SEK,40000000,2022,NA,NA
+Armenia,ARM,2024,2025,Middle income,2974000,NA,2004-11-29,1,1,1,AMD,100000000,2023,1380780,1593069

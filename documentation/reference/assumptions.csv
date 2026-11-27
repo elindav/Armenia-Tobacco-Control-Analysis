@@ -1,0 +1,18 @@
+item,value,type,justification
+Baseline year / horizon,2024 / 2034,fixed,Brief
+Policy start year,2026 (main.R POLICY_START),scenario constant,"Effects ramp in over 3-4 years; no policy effect in 2025"
+Population model,Sex-specific adult (15+) fractions; no age structure,structural,"No Armenian age-specific smoking history or WPP file supplied; age structure would need unsupported parameters"
+Smoking indicator,Current cigarette smoking only (WHO 2023 modelled),structural,"Any-tobacco / daily / HSPA indicators have other definitions and are not merged"
+BAU trend,"50% of log-linear slope of SDG any-tobacco series, then constant hazards",structural,"Trend only; hazards fixed so prevalence converges (no constant-rate extrapolation)"
+Initiation,Calibrated so prevalence changes at rate rho at t=0,calibration,"i=(rho+q+m)C/N"
+Relapse / differential smoker mortality,Omitted,structural,"No supporting Armenian data; listed as limitation"
+S2 compliance target,9.5/10 (baseline 8 from tobacco_policy.csv),scenario constant,"Assumption: closes 75% of the gap to full compliance; delivered share phi is uncertain"
+S3 tax target,Tax share of retail price 60% (baseline 48.9%; WHO benchmark 75%),scenario constant,"Assumption; implies ~28% real price rise before pass-through"
+Double-counting control,"Multiplicative combination of hazard modifiers + overlap factor omega (non-price package); tax acts via elasticity separately",method,"Avoids summing prevalence effects"
+Lung cancer link,Exposure index I=1+(RR-1)E with duration weight psi and residual-risk decay D,method,"Delays benefit of reduced smoking; unknown never-smoker rate cancels in calibration"
+Mortality,Lagged fraction of incident cases (lag weights Dirichlet) calibrated to 2024 deaths; fatality fraction <=0.98,method,"No fixed MIR; incidence and mortality kept distinct"
+Pre-2024 cases,Assumed at 2024 level deflated by ageing growth,assumption,"Needed only for the survival lag in 2024-2025"
+Monte Carlo,n=5000 (main.R N_SIM); common random numbers across scenarios,method,"Parameter uncertainty only"
+Former-smoker share,"Men 14.2%, women 0.9% (WHO STEPS 2016 via FCTC Needs Assessment 2020)",data-informed prior,"Any-tobacco, ages 18-69, 2016: different from cigarette baseline; sd is an assumed allowance"
+Evidence for assumptions,see effect_size_sources.csv,documentation,"Parameters without a source are assumptions"
+Smoke-free effect,Inconsistent evidence on prevalence (Cochrane 2016),caveat,"S2 effects are assumptions and optimistic"

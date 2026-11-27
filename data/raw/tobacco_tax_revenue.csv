@@ -1,0 +1,4 @@
+country,iso3,year,fiscal_year_label,coverage,currency,excise_total,vat_sales_tax,import_duties,other_taxes,total,excise_share_pct
+Armenia,ARM,2021,2021,all tobacco products,AMD,24602709288,12648969548,175621564,0,37427300400,65.7
+Australia,AUS,2022,2021-22,all tobacco products,AUD,12604000000,1988500000,0,0,14592500000,86.4
+Sweden,SWE,2023,2023,all tobacco products,EUR,955326300,NA,NA,NA,NA,NA

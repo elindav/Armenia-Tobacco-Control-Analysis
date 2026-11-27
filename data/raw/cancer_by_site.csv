@@ -1,0 +1,35 @@
+country,iso3,year,row_type,tobacco_related,cancer_site,new_cases,new_cases_rank,new_cases_pct,new_cases_cum_risk_pct,deaths,deaths_rank,deaths_pct,deaths_cum_risk_pct,prevalence_5yr_n,prevalence_5yr_per_100k,asr_world_incidence_both,asr_world_mortality_both,asr_world_incidence_male,asr_world_incidence_female
+Armenia,ARM,2024,site,0,Breast,1590,1,14.8,6.0,458,4,8.4,1.8,5016,314.9,55.6,15.5,NA,55.6
+Armenia,ARM,2024,site,1,Lung,1513,2,14.1,3.5,1270,1,23.2,3.0,1964,66.0,29.7,24.5,59.2,10.7
+Armenia,ARM,2024,site,1,Colorectum,1079,3,10.1,2.2,514,2,9.4,1.1,2988,100.5,20.2,9.4,25.7,16.7
+Armenia,ARM,2024,site,0,Prostate,878,4,8.2,3.8,221,7,4.0,0.98,2030,147.0,43.1,10.8,43.1,NA
+Armenia,ARM,2024,site,1,Liver,581,5,5.4,1.3,510,3,9.3,1.1,727,24.5,11.3,9.7,17.2,7.4
+Armenia,ARM,2024,site,0,Thyroid,530,6,4.9,1.0,30,18,0.55,0.04,1778,59.8,11.9,0.5,NA,NA
+Armenia,ARM,2024,site,1,Stomach,504,7,4.7,1.1,379,6,6.9,0.79,741,24.9,9.8,7.2,12.9,7.9
+Armenia,ARM,2024,site,0,Corpus uteri,487,8,4.5,1.9,129,10,2.4,0.49,1621,101.8,16.5,4.1,NA,16.5
+Armenia,ARM,2024,site,1,Pancreas,400,9,3.7,0.88,393,5,7.2,0.86,384,12.9,7.6,7.4,10.8,5.4
+Armenia,ARM,2024,site,1,Bladder,399,10,3.7,0.77,158,9,2.9,0.3,1175,39.5,7.2,2.8,16.9,1.7
+Armenia,ARM,2024,site,1,Cervix uteri,274,11,2.6,1.2,98,12,1.8,0.41,921,57.8,11.1,3.7,NA,11.1
+Armenia,ARM,2024,site,0,Brain CNS,228,12,2.1,0.56,201,8,3.7,0.5,848,28.5,5.3,4.6,6.5,4.4
+Armenia,ARM,2024,site,1,Kidney,221,13,2.1,0.5,80,14,1.5,0.19,652,21.9,4.6,1.5,8.1,2.2
+Armenia,ARM,2024,site,1,Larynx,173,14,1.6,0.45,71,15,1.3,0.18,513,17.3,NA,NA,8.0,0.4
+Armenia,ARM,2024,site,0,Ovary,150,15,1.4,0.61,101,11,1.8,0.4,405,25.4,5.5,3.4,NA,5.5
+Armenia,ARM,2024,site,0,NHL,141,16,1.3,0.35,50,16,0.91,0.12,424,14.3,NA,NA,NA,NA
+Armenia,ARM,2024,site,1,Leukaemia,141,16,1.3,0.31,86,13,1.6,0.19,424,14.3,NA,NA,NA,NA
+Armenia,ARM,2024,site,0,Melanoma,99,18,0.92,0.2,23,22,0.42,0.04,339,11.4,NA,NA,NA,NA
+Armenia,ARM,2024,site,0,Testis,77,19,0.72,0.39,7,27,0.13,0.03,304,22.0,5.1,0.5,5.1,NA
+Armenia,ARM,2024,site,1,"Lip, oral cavity",62,20,0.58,0.15,24,20,0.44,0.06,173,5.8,NA,NA,NA,NA
+Armenia,ARM,2024,site,0,Hodgkin lymphoma,60,21,0.56,0.16,9,25,0.17,0.03,224,7.5,NA,NA,NA,NA
+Armenia,ARM,2024,site,0,Salivary glands,43,22,0.4,0.1,13,24,0.24,0.03,129,4.3,NA,NA,NA,NA
+Armenia,ARM,2024,site,1,Oesophagus,43,22,0.4,0.1,39,17,0.71,0.09,58,2.0,NA,NA,NA,NA
+Armenia,ARM,2024,site,0,Multiple myeloma,37,24,0.35,0.09,24,20,0.44,0.07,102,3.4,NA,NA,NA,NA
+Armenia,ARM,2024,site,0,Gallbladder,36,25,0.34,0.07,29,19,0.53,0.06,47,1.6,NA,NA,NA,NA
+Armenia,ARM,2024,site,1,Oropharynx,18,26,0.17,0.05,6,28,0.11,0.02,51,1.7,NA,NA,NA,NA
+Armenia,ARM,2024,site,0,Mesothelioma,18,26,0.17,0.04,14,23,0.26,0.03,22,0.74,NA,NA,NA,NA
+Armenia,ARM,2024,site,0,Vulva,18,26,0.17,0.06,8,26,0.15,0.02,51,3.2,NA,NA,NA,NA
+Armenia,ARM,2024,site,1,Nasopharynx,16,29,0.15,0.03,6,28,0.11,0.01,50,1.7,NA,NA,NA,NA
+Armenia,ARM,2024,site,0,Penis,14,30,0.13,0.07,4,30,0.07,0.02,41,3.0,NA,NA,NA,NA
+Armenia,ARM,2024,site,1,Hypopharynx,12,31,0.11,0.03,4,30,0.07,0.01,23,0.77,NA,NA,NA,NA
+Armenia,ARM,2024,site,0,Vagina,7,32,0.07,0.04,3,32,0.06,0.02,19,1.2,NA,NA,NA,NA
+Armenia,ARM,2024,all_cancers,NA,All cancers,10718,NA,NA,20.9,5468,NA,NA,11.4,26260,NA,NA,NA,NA,NA
+Armenia,ARM,2024,all_cancers_excl_nmsc,NA,All cancers excl. NMSC,10547,NA,NA,20.7,5441,NA,NA,11.4,25750,NA,NA,NA,NA,NA

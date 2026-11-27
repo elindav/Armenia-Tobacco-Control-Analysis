@@ -1,0 +1,33 @@
+id,reference,type,status
+A1,"WHO FCTC Armenia Needs Assessment, August 2020 https://fctc.who.int/docs/librariesprovider12/technical-documents/needs-assessment/armenia-needs-assessment-august2020.pdf",brief source,OPENED
+A2,Government of Armenia bodies under government https://gov.am/en/bodies-under-government,brief source,OPENED
+A3,ARLIS act 209229 https://arlis.am/en/acts/209229,brief source,OPENED (truncated; tobacco articles not read)
+A4,ARLIS act 139759 https://www.arlis.am/hy/acts/139759,brief source,OPENED (original 2020 text)
+A5,WHO Global Tobacco Report 2025 Armenia profile https://cdn.who.int/media/docs/default-source/country-profiles/tobacco/gtrc-2025/tobacco-2025-arm.pdf,brief source,OPENED
+A6,Tobacco Control Laws Armenia enforcement authorities https://www.tobaccocontrollaws.org/legislation/armenia/smoke-free/enforcement-authorities,brief source,OPENED
+A7,PMC10720263 https://pmc.ncbi.nlm.nih.gov/articles/PMC10720263/,brief source,OPENED
+A8,Armenian Club 2023-08-04 smoking-ban supervision https://www.armenianclub.com/2023/08/04/pashinyan-instructs-to-strengthen-smoking-ban-supervision,brief source (secondary),OPENED (secondary source)
+B1-B7,"Georgia: B1 tobaccocontrollaws.org enforcement (OPENED); B3 WHO Europe 30 May 2022 (OPENED); B6 WHO GTR 2025 GEO (OPENED); B2 matsne 1160150, B4 tobaccopreventioncessation PDF, B5 globaltobaccoindex GE (NOT OPENED); B7 PubMed 39185397 (page empty)",brief source,Partly opened - see source_verification_log.csv
+D1-D3,Australia/NSW: D1 enforcement page; D2 NSW Health 1 Jul 2025; D3 NSW Health 21 Aug 2025,brief source,OPENED
+U1,"Uploaded datasets in data/raw (tobacco_prevalence, cancer_by_sex, cancer_by_site, cancer_top_sites_by_sex, tobacco_policy, tobacco_prices_taxes, SurveyArmenia, others)",project data,Inspected and used
+M1,"Doll R, Peto R. Cigarette smoking and bronchial carcinoma: dose and time relationships among regular smokers and lifelong non-smokers. J Epidemiol Community Health 1978;32(4):303-313. doi:10.1136/jech.32.4.303",methods literature,Checked (PubMed 744822)
+M2,"Peto R, Darby S, Deo H, Silcocks P, Whitley E, Doll R. Smoking, smoking cessation, and lung cancer in the UK since 1950: combination of national statistics with two case-control studies. BMJ 2000;321(7257):323-329. doi:10.1136/bmj.321.7257.323",methods literature,Checked (PubMed 10926586)
+M3,"Chaloupka FJ, Warner KE. The economics of smoking. In: Culyer AJ, Newhouse JP, eds. Handbook of Health Economics, vol 1B, chapter 29. Amsterdam: Elsevier; 2000:1539-1627 (NBER Working Paper 7047)",methods literature,Checked (bibliographic record only; chapter not read)
+M4,IARC. GLOBOCAN (Global Cancer Observatory) https://gco.iarc.fr,data source,Values taken from uploaded files; not re-downloaded
+M5,WHO. MPOWER / Global Tobacco Control reports,data source,Values taken from uploaded files
+S1,"Grigoryan Z, Sargsyan Z, Muradyan D, Mnatsakanyan K, Hayrumyan V, Petrosyan V. A mixed-methods evaluation of the indoor and outdoor smoking ban in dining venues in Armenia: early successes and challenges. Tob Induc Dis 2023;21:167. doi:10.18332/tid/174899 (= A7)",peer-reviewed,OPENED
+S3,WHO. WHO report on the global tobacco epidemic 2025: MPOWER country profile Armenia (= A5),official,OPENED
+E1,"WHO. WHO report on the global tobacco epidemic, 2025: country profile Ireland. Geneva: WHO; 2025 https://www.drugsandalcohol.ie/44869/1/Tobacco-2025-irl.pdf",official,OPENED
+E2,Tobacco Control Laws. Ireland: smoke-free enforcement authorities. https://www.tobaccocontrollaws.org/legislation/ireland/smoke-free/enforcement-authorities (updated 20 Nov 2025),legal analysis,OPENED
+E3,Tobacco Control Laws. Ireland: smoke-free duties/penalties. https://www.tobaccocontrollaws.org/legislation/ireland/smoke-free/duties-penalties,legal analysis,OPENED
+E4,HSE. Compliance and Enforcement. https://www.hse.ie/eng/about/who/tobaccocontrol/enforcement,official,OPENED
+E5,"HSE. 20 years since Ireland banned smoking indoors with 800,000 fewer smokers today (press release, 28 Mar 2024). https://about.hse.ie/news/20-years-since-ireland-banned-smoking-indoors-with-800000-fewer-smokers-today",official,OPENED
+E6,"Houghton F, Lombard J. Examining tobacco-control enforcement in Ireland 2014-2023: an observational study. Perspectives in Public Health 2025. doi:10.1177/17579139251371974",peer-reviewed,Abstract opened; full text not opened
+S4,"NSW Health. New tobacco licensing scheme comes into force across NSW (1 Jul 2025) and New dedicated enforcement unit to tackle illicit tobacco (21 Aug 2025) (= D2, D3)",official,OPENED
+R1,"Frazer K, Callinan JE, McHugh J, van Baarsel S, Clarke A, Doherty K, Kelleher C. Legislative smoking bans for reducing harms from secondhand smoke exposure, smoking prevalence and tobacco consumption. Cochrane Database Syst Rev 2016;(2):CD005992. doi:10.1002/14651858.CD005992.pub3",effect-size source (smoke-free laws),Checked (abstract/summary)
+R2,"Cahill K, Stevens S, Perera R, Lancaster T. Pharmacological interventions for smoking cessation: an overview and network meta-analysis. Cochrane Database Syst Rev 2013;(5):CD009329. doi:10.1002/14651858.CD009329.pub2",effect-size source (cessation),Checked (abstract/summary)
+R3,Pharmacological and electronic cigarette interventions for smoking cessation in adults: component network meta-analyses. Cochrane Database Syst Rev 2023;9(9):CD015226. doi:10.1002/14651858.CD015226.pub2 [author list not retrieved - add from PubMed before submission],effect-size source (cessation),Checked (abstract); authors to add
+R4,"IARC. Effectiveness of Tax and Price Policies for Tobacco Control. IARC Handbooks of Cancer Prevention, Tobacco Control, vol 14. Lyon: IARC; 2011. ISBN 978-92-832-3014-4",effect-size source (tax/price),Checked (publisher page and chapter summaries)
+R5,"Chaloupka FJ, Straif K, Leon ME; Working Group, Vol 14 of the IARC Handbooks. Effectiveness of tax and price policies in tobacco control. Tob Control 2011;20(3):235-238. doi:10.1136/tc.2010.039982",effect-size source (tax/price),Checked (PubMed 21115556)
+R6,"Houghton F, Lombard J. Examining tobacco-control enforcement in Ireland 2014-2023: an observational study. Perspect Public Health 2025. doi:10.1177/17579139251371974 (secondary summaries: Dillon L, Drugnet Ireland 95, 2026; HRB blog 10 Sep 2026)",peer-reviewed,Abstract and secondary summaries opened; full text not opened
+R7,"Administrative Offences Code of the Republic of Armenia, Art. 173.2 (ARLIS act 209229, English consolidated text); Law amending the Code, adopted 13 Feb 2020 (Tobacco Control Laws, unofficial translation)",legislation,Art. 173.2 read as an excerpt

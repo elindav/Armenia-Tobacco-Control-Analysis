@@ -1,0 +1,4 @@
+country,iso3,year,sex,population,new_cases,incidence_asr_world_per100k,incidence_cum_risk_0_74_pct,deaths,mortality_asr_world_per100k,mortality_cum_risk_0_74_pct,prevalent_cases_5yr
+Armenia,ARM,2024,male,1380780,5067,260.1,24.6,2961,149.4,15.8,10800
+Armenia,ARM,2024,female,1593069,5651,193.4,18.5,2507,79.6,8.4,15460
+Armenia,ARM,2024,both,2973846,10718,215.8,20.9,5468,106.0,11.4,26260

@@ -1,0 +1,30 @@
+# R / RStudio
+.Rhistory
+.RData
+.Rapp.history
+.Ruserdata
+.Rproj.user/
+*.Rcheck/
+*.tar.gz
+renv/library/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+__MACOSX/
+
+# Windows / editors
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+
+# Quick test runs (N_SIM != 5000) are written here and are not published
+results/quick_test_*/
+
+# Temporary files
+*.tmp
+*.log
+*~

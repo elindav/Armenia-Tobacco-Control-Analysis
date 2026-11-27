@@ -1,0 +1,19 @@
+country,iso3,year,sex,cancer_site,incidence_rank,new_cases,pct_of_all_cancers,mortality_rank_top3
+Armenia,ARM,2024,male,Lung,1,1170,23.1,1
+Armenia,ARM,2024,male,Prostate,2,878,17.3,NA
+Armenia,ARM,2024,male,Colorectum,3,512,10.1,3
+Armenia,ARM,2024,male,Bladder,4,341,6.7,NA
+Armenia,ARM,2024,male,Liver,5,335,6.6,2
+Armenia,ARM,2024,male,Others,NA,1831,36.1,NA
+Armenia,ARM,2024,female,Breast,1,1590,28.1,1
+Armenia,ARM,2024,female,Colorectum,2,567,10.0,2
+Armenia,ARM,2024,female,Corpus uteri,3,487,8.6,NA
+Armenia,ARM,2024,female,Thyroid,4,459,8.1,NA
+Armenia,ARM,2024,female,Lung,5,343,6.1,3
+Armenia,ARM,2024,female,Others,NA,2205,39.0,NA
+Armenia,ARM,2024,both,Breast,1,1590,14.8,NA
+Armenia,ARM,2024,both,Lung,2,1513,14.1,1
+Armenia,ARM,2024,both,Colorectum,3,1079,10.1,2
+Armenia,ARM,2024,both,Prostate,4,878,8.2,NA
+Armenia,ARM,2024,both,Liver,5,581,5.4,3
+Armenia,ARM,2024,both,Others,NA,5077,47.4,NA

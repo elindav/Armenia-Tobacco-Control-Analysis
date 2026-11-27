@@ -1,0 +1,10 @@
+country,iso3,year,product,law_mandates_warnings,sale_banned,pct_front_rear_combined,pct_front,pct_rear,warning_at_top,font_mandated,rotating,rotating_multiple_concurrent,rotating_change_time_specified,principal_language,not_obscured,photo_or_graphic,on_each_package_and_outer,applies_domestic_imported_dutyfree,describes_harmful_effects,specific_warnings_mandated,n_specific_warnings,fines_for_violations,liability_not_diminished_stated,no_misleading_terms,no_figurative_signs,no_flavour_descriptors,ban_quantitative_emission_info,mandates_qualitative_constituent_info,qualitative_info_on_principal_area,bans_expiry_dates,quitline_number_mandatory,plain_packaging,note
+Australia,AUS,2022,cigarettes,1,0,83,75,90,1,1,1,NA,NA,1,1,1,1,1,1,1,14,1,0,1,1,1,1,1,0,1,1,1,NA
+Australia,AUS,2022,other_smoked,1,0,75,75,75,1,1,1,NA,NA,1,1,1,1,1,1,1,24,1,0,1,1,1,1,1,0,1,1,1,NA
+Australia,AUS,2022,smokeless,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Sale of smokeless tobacco is banned
+Sweden,SWE,2024,cigarettes,1,0,65,65,65,1,1,1,1,1,1,1,1,1,1,1,1,15,1,0,1,1,1,1,1,0,0,1,0,NA
+Sweden,SWE,2024,other_smoked,1,0,65,65,65,1,1,1,1,1,1,1,1,1,1,1,1,15,1,0,1,1,1,1,1,0,0,1,0,"65% and top-placement/photo/qualitative-info apply to roll-your-own & waterpipe only; other smoked tobacco: 35% combined (30% front, 40% rear), no top/graphic/constituent requirement"
+Sweden,SWE,2024,smokeless,1,0,30,30,30,0,1,0,NA,NA,1,1,0,1,1,1,1,1,1,0,1,1,1,1,0,NA,0,0,0,NA
+Armenia,ARM,2024,cigarettes,1,0,50,50,50,1,1,1,1,0,1,0,1,1,1,1,1,12,1,1,1,0,0,0,1,0,0,0,0,"Plain packaging: enabling legislation passed, regulations pending (coded 0)"
+Armenia,ARM,2024,other_smoked,1,0,50,50,50,1,1,1,1,0,1,0,1,1,1,1,1,12,1,1,1,0,0,0,1,0,0,0,0,"Plain packaging: enabling legislation passed, regulations pending (coded 0)"
+Armenia,ARM,2024,smokeless,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,0,0,0,0,NA,0,0,0,No warning law for smokeless tobacco (chewing tobacco banned)

@@ -1,0 +1,3 @@
+country,year,mp_smoke_free_level,mp_cessation_level,mp_taxation_level,mp_tax_share_pct_retail_price,sf_compliance_score,sf_fines_required,sf_fines_on_establishment,sf_enforcement_funds,sf_complaint_system,derivation_note
+Georgia,2024,2,1,2,69.45,8,1,1,0,0,"WHO GTR 2025 Georgia: 7/8 places complete ban; quitline, NRT not cost-covered; tax 69.45% (legend bands)"
+Ireland,2024,3,3,3,77.81,,1,1,0,1,WHO GTR 2025 Ireland: 8/8 places; quitline + NRT/services cost-covered (NRT only partially - borderline); tax 77.81%; smoke-free compliance score NOT reported by WHO

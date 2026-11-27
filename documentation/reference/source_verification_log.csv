@@ -1,0 +1,40 @@
+id,source,status,used_for
+A1,WHO FCTC Armenia Needs Assessment (Aug 2020),OPENED in full,"Legal timeline, enforcement bodies, STEPS 2016 former-tobacco-use (men 14.2%, women 0.9%), tax, cessation, funding"
+A2,gov.am Bodies under Government,OPENED,Health and Labour Inspection Body mandate (page header shows it was the Inspection Body entry)
+A3,ARLIS 209229,Opened in part,Art. 173.2: fine on officials 150-200x and individuals 50x the minimum salary. Rest of the tobacco articles not read
+A4,ARLIS 139759 (2020 TC Law),OPENED in full (Armenian),"Original 2020 TC Law text HO-92-N: Arts 4-11, in-force dates; later amendments HO-509-N, HO-38-N not read"
+A5,WHO GTR 2025 Armenia profile,OPENED in full,"Compliance 8/10, fines, funding, tax 48.87%, prevalence; matches uploaded data"
+A6,tobaccocontrollaws.org Armenia enforcement,OPENED,"Police authority, duty 'Uncertain', no inspection protocols (updated 21 Sep 2022)"
+A7,PMC10720263 Grigoryan et al. 2023,OPENED in full,"Implementation/compliance observations, fines, police supervision"
+A8,Armenian Club / Armenpress 3 Aug 2023,OPENED,"7,186 protocols; secondary source"
+B1,tobaccocontrollaws.org Georgia enforcement,OPENED,Authorities and legal basis (updated 4 Nov 2025)
+B2,matsne.gov.ge document 1160150,Opened in part,Arts 10-12 and list of amending laws. No fine amounts in this law
+B3,WHO Europe Georgia story 2022,OPENED,"Law dates, official claims (non-causal)"
+B4,tobaccopreventioncessation.com PDF,NOT OPENED,-
+B5,globaltobaccoindex.org Georgia,NOT OPENED,-
+B6,WHO GTR 2025 Georgia,OPENED in full,"Georgia MPOWER data: compliance, fines, funding, tax 69.45%, cessation"
+B7,PubMed 39185397,ATTEMPTED - page returned no content,-
+D1,NSW Health enforcement page,OPENED in full,"Penalties, seizures, prosecutions, closure orders"
+D2,NSW Health 1 Jul 2025 update,OPENED in full,"NSW licensing scheme, penalties, inspector numbers, Jan-Mar 2025 seizure data"
+D3,NSW Health 21 Aug 2025 update,OPENED in full,"Centre for Regulation and Enforcement (48 FTE), Jan-Jun 2025 inspections and penalty notices"
+C-removed,Uruguay sources (C1-C4),REMOVED from scope,Group replaced Uruguay by Ireland; Uruguay no longer in tables or scores
+E1,WHO GTR 2025 Ireland profile (drugsandalcohol.ie copy),OPENED in full,"MPOWER data, taxes, cessation, fines, compliance not reported"
+E2,Tobacco Control Laws Ireland - enforcement authorities,OPENED,"HSE and HSA, duty to enforce, statutes (updated 20 Nov 2025)"
+E3,Tobacco Control Laws Ireland - duties/penalties,OPENED,"Fines up to EUR 3,000, prison for signs offence"
+E4,HSE Compliance and Enforcement page,OPENED,"Enforcement role, compliance line, test purchases, convictions publication"
+E5,HSE press release 28 Mar 2024,OPENED in full,"Prevalence 27%->18% (non-causal), EUR 3,000 fine, Quit funding"
+E6,"Houghton & Lombard 2025, Perspectives in Public Health",Abstract and summaries only,Inspection and conviction figures 2014-2023
+E7,Irish Statute Book / PHA 2002 PDFs,NOT OPENED,Cited only via Tobacco Control Laws summaries
+A9,"Armenian Administrative Offences Code amending law, 2020 (Tobacco Control Laws PDF, unofficial translation)",Read in full,Fines in the 2020 amending law
+A10,1lurer.am 15 Mar 2022 (press),Excerpt read,"Fines 150,000-200,000 AMD on officials, 50,000 AMD on individuals"
+A11,Tobacco Control Laws Armenia overview (updated 21 Sep 2022),Excerpt read,"Law amended twice, last in March 2022. Amendment texts not read"
+B8,Agenda.ge 1 May 2018; JAMnews; The Union 2018,Excerpts read,"Georgia fine amounts (press, inconsistent)"
+B-insp,Georgia inspection/sanction counts,"Searched, nothing found",Georgia inspections not collected
+B4/B5/B7,tobaccopreventioncessation PDF; Global Tobacco Index Georgia; PubMed 39185397,Not opened,-
+M1,"Doll & Peto 1978, J Epidemiol Community Health 32(4):303-313, doi:10.1136/jech.32.4.303",Checked against PubMed,Dose and duration form of lung cancer incidence
+M2,"Peto et al. 2000, BMJ 321:323-329, doi:10.1136/bmj.321.7257.323",Checked against PubMed,"Cumulative risk by age 75: 15.9% continuing; 9.9, 6.0, 3.0, 1.7% if stopped at 60, 50, 40, 30"
+M3,"Chaloupka & Warner 2000, Handbook of Health Economics vol 1B ch 29, pp 1539-1627, Elsevier","Citation checked, chapter not read",Citation only
+R1,Frazer et al. 2016 Cochrane CD005992.pub3,Abstract read,Smoke-free laws: evidence on prevalence is inconsistent
+R2,Cahill et al. 2013 Cochrane CD009329.pub2; Cochrane 2023 CD015226.pub2,Abstracts read,Cessation drug effect sizes
+R3,"IARC Handbooks Vol 14 (2011); Chaloupka, Straif, Leon Tob Control 2011;20:235-238",Summaries read,Price and tax effectiveness
+R4,"WHO FCTC Armenia Needs Assessment 2020 (= A1), STEPS 2016 quit-attempt figures",Excerpt read,"STEPS 2016: 34.5% of current smokers tried to quit in the past year; former users men 14.2%, women 0.9%"

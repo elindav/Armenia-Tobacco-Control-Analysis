@@ -1,0 +1,27 @@
+"question","response","n","pct"
+"current_user","Այո",7,10.8
+"current_user","Ոչ",57,87.7
+"current_user","Չեմ ուզում պատասխանել",1,1.5
+"secondhand_30d","Ամսվա մեջ մի քանի անգամ",17,26.2
+"secondhand_30d","Մեկ-երկու անգամ",11,16.9
+"secondhand_30d","Շաբաթվա մեջ մի քանի անգամ կամ ավելի հաճախ",16,24.6
+"secondhand_30d","Ոչ մի անգամ",15,23.1
+"secondhand_30d","Չեմ հիշում",6,9.2
+"saw_violation_30d","Ամսվա մեջ մի քանի անգամ",16,24.6
+"saw_violation_30d","Մեկ-երկու անգամ",14,21.5
+"saw_violation_30d","Շաբաթվա մեջ մի քանի անգամ կամ ավելի հաճախ",11,16.9
+"saw_violation_30d","Ոչ մի անգամ",18,27.7
+"saw_violation_30d","Չգիտեմ / չեմ նկատել",6,9.2
+"perceived_compliance","Բավականին լավ",16,24.6
+"perceived_compliance","Բավականին վատ",17,26.2
+"perceived_compliance","Դժվարանում եմ պատասխանել",2,3.1
+"perceived_compliance","Շատ լավ",6,9.2
+"perceived_compliance","Շատ վատ",2,3.1
+"perceived_compliance","Ո՛չ լավ, ո՛չ վատ",22,33.8
+"most_helpful_measure","Դժվարանում եմ պատասխանել",9,13.8
+"most_helpful_measure","Երիտասարդների պաշտպանություն և վաճառքի ժամանակ տարիքի ստուգում",8,12.3
+"most_helpful_measure","Իրազեկման և կրթական արշավներ",3,4.6
+"most_helpful_measure","Ծխախոտի գների և ակցիզային հարկի բարձրացում",17,26.2
+"most_helpful_measure","Ծխախոտի գովազդի և խթանման ավելի խիստ սահմանափակումներ",1,1.5
+"most_helpful_measure","Ծխելը թողնելու մատչելի աջակցություն",7,10.8
+"most_helpful_measure","Ծխելու արգելքի ավելի խիստ վերահսկում",20,30.8

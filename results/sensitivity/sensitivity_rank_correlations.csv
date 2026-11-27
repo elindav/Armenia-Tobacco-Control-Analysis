@@ -1,0 +1,39 @@
+"parameter","group","deaths_averted_cum_S3","deaths_averted_cum_S2","BAU_cases_2034","S3_male_prev_2034","importance_S3_deaths_averted"
+"eps_abs","Price elasticity",0.526,-0.023,-0.005,-0.07,1
+"half","Time since quitting",-0.48,-0.236,0.06,-0.021,2
+"u","Price elasticity",0.338,-0.015,-0.021,-0.048,3
+"bsf","Policy effectiveness",0.177,0.759,-0.017,-0.042,4
+"death_err","Cancer calibration",0.163,0.076,0.222,-0.005,5
+"rinf","Time since quitting",-0.156,-0.06,0.057,-0.004,6
+"phi3","Policy effectiveness",0.153,-0.024,0.025,-0.071,7
+"reach","Policy effectiveness",0.136,0.006,0.001,-0.025,8
+"eff","Policy effectiveness",0.135,-0.007,-0.008,-0.043,9
+"tau","Policy effectiveness",0.121,-0.013,-0.01,-0.002,10
+"media","Policy effectiveness",0.097,-0.01,0.005,-0.043,11
+"RR_m","Relative risks",0.095,0.03,-0.026,-0.008,12.5
+"lagw_1","Cancer calibration",0.095,0.071,0.009,0.016,12.5
+"omega","Policy effectiveness",0.094,0.01,0.012,-0.03,14
+"kappa","Latency / duration",-0.071,-0.086,-0.054,-0.001,15.5
+"dur_m_8","Historical exposure",-0.071,-0.331,-0.108,0.301,15.5
+"phi","Policy effectiveness",0.07,0.371,-0.002,-0.04,17
+"q_m","Smoking cessation",0.057,0.38,0.071,-0.34,18
+"C0_m","Baseline smoking",0.054,0.028,0.02,0.601,19
+"g_m","Population ageing",0.051,0.011,0.233,0.008,20
+"C0_f","Baseline smoking",0.043,0.024,0,0.018,21
+"phif","Cancer calibration",-0.039,-0.054,0.121,0.003,22
+"F0_m","Historical exposure",-0.033,-0.022,-0.05,0.001,23
+"psi_f0","Historical exposure",-0.03,-0.023,-0.048,0.02,24
+"cases_err","Cancer calibration",0.029,0.009,0.936,0.01,25
+"gsf","Policy effectiveness",0.028,0.067,-0.042,-0.049,26
+"RR_f","Relative risks",0.027,0.019,-0.01,0.023,27.5
+"ysq_m_1","Historical exposure",-0.027,-0.002,-0.019,-0.012,27.5
+"m_exit","Population",-0.026,0,-0.051,-0.001,29
+"rho_m","Smoking initiation",0.025,0.026,0,0.621,30
+"F0_f","Historical exposure",-0.021,-0.033,-0.015,0.012,31
+"ysq_f_1","Historical exposure",-0.014,-0.004,0.003,0.006,32
+"ad","Policy effectiveness",-0.011,-0.034,0.014,-0.008,33
+"warn","Policy effectiveness",-0.01,0.002,-0.004,-0.052,34.5
+"dur_f_8","Historical exposure",0.01,0.003,-0.003,0.008,34.5
+"rho_f","Smoking initiation",0.009,-0.022,-0.034,-0.002,36
+"g_f","Population ageing",-0.007,-0.015,0.102,0.018,37
+"q_f","Smoking cessation",0,0.001,0.009,-0.002,38
